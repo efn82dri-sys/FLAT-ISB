@@ -1,0 +1,68 @@
+{
+  "accounts": [
+    {
+      "id": "isb-group",
+      "platform": "instagram",
+      "role": {
+        "fa": "پیج رسمی گروه ISB",
+        "en": "Official ISB page"
+      },
+      "handle": "isb.group",
+      "url": "https://instagram.com/isb.group",
+      "active": true
+    }
+  ],
+  "posts": [
+    {
+      "account": "isb-group",
+      "image": "/uploads/2026/11/2896aa7204e9b1be.jpg",
+      "caption": {
+        "fa": "روشنایی ساختمان",
+        "en": "Building lighting"
+      },
+      "url": "https://www.instagram.com/p/DfwnsjhCvzk/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+      "id": "building-lighting"
+    },
+    {
+      "account": "isb-group",
+      "image": "/uploads/2026/11/5dedf5da800ed050.jpg",
+      "caption": {
+        "fa": "نماهای ساختمان",
+        "en": "Building views"
+      },
+      "url": "https://www.instagram.com/p/DfwnsjhCvzk/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+      "id": "building-views"
+    },
+    {
+      "account": "isb-group",
+      "image": "/uploads/2026/11/195f4105832149f3.jpg",
+      "caption": {
+        "fa": "نور کافی",
+        "en": "Enough light"
+      },
+      "url": "https://www.instagram.com/p/DfwnsjhCvzk/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+      "id": "enough-light"
+    }
+  ],
+  "phones": [
+    {
+      "id": "phone-1",
+      "label": {
+        "fa": "دفتر / مشاوره",
+        "en": "Office / consulting"
+      },
+      "number": "09339039563",
+      "whatsapp": true
+    },
+    {
+      "id": "phone-2",
+      "label": {
+        "fa": "خط دوم",
+        "en": "Second line"
+      },
+      "number": "09151213005",
+      "whatsapp": false
+    }
+  ],
+  "people": []
+}

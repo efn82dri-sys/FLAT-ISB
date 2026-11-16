@@ -1,0 +1,63 @@
+/* ساختار سایت اسکرولی: بخش‌ها، نوار آمار، ایستگاه‌های مسیر پایداری، فوتر پرده‌ای با نام بزرگ. */
+.skip{position:absolute;inset-inline-start:8px;top:-60px;z-index:99;background:var(--t-gold-400,#f4c65e);color:#111;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none}
+.skip:focus{top:8px}
+body.mdo,body.mo{overflow:hidden}
+.site{position:relative;z-index:1;background:#071d45;margin-bottom:var(--fh,70vh)}
+.sec{padding:clamp(72px,11vh,130px) clamp(16px,4vw,48px);scroll-margin-top:56px;background:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px) 0 0/40px 40px,#071d45;border-top:1px solid rgba(169,204,255,.1)}
+.sec:nth-of-type(even){background-color:#08224f}
+#sec-about{border-top:0}
+
+/* ---------- آمار ---------- */
+.stats{background:#071d45;padding:clamp(48px,9vh,96px) clamp(16px,4vw,48px)}
+.stats-in{max-width:72rem;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--t-s5,24px)}
+.stat{text-align:center;display:grid;gap:var(--t-s2,8px);padding:var(--t-s5,24px) var(--t-s3,12px);border-inline-start:1px solid var(--t-line,rgba(169,204,255,.22))}
+.stat:first-child{border-inline-start:0}
+.stat b{font-size:clamp(2.6rem,7vw,5rem);line-height:1;font-weight:900;color:#fff;font-variant-numeric:tabular-nums;filter:blur(14px);opacity:0;transform:translateY(40%) scaleY(1.25);transition:filter 1s var(--t-ease,ease),opacity .8s,transform 1s var(--t-ease,ease)}
+.stats.on .stat b{filter:none;opacity:1;transform:none}
+.stats.on .stat:nth-child(2) b{transition-delay:.12s}.stats.on .stat:nth-child(3) b{transition-delay:.24s}.stats.on .stat:nth-child(4) b{transition-delay:.36s}.stats.on .stat:nth-child(5) b{transition-delay:.48s}
+.stat span{color:var(--t-ice-300,#8fa3d6);font-size:var(--t-fs-sm,.95rem)}
+
+/* ---------- مسیر پایداری در شش ایستگاه ---------- */
+.jgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--t-s4,16px)}
+.jc{all:unset;box-sizing:border-box;cursor:pointer;display:grid;gap:var(--t-s2,8px);align-content:start;padding:var(--t-s5,24px);border:1px solid var(--t-line);border-radius:var(--t-r-lg,24px);background:linear-gradient(135deg,rgba(34,57,129,.4),rgba(14,26,64,.55));transition:transform var(--t-dur,.3s) var(--t-ease,ease),border-color var(--t-dur,.3s);animation:tr-up .55s var(--t-ease,ease) both;animation-delay:calc(var(--i,0)*60ms)}
+.jc:hover{transform:translateY(-4px);border-color:var(--t-gold-400,#f4c65e)}
+.jc:focus-visible{outline:2px solid var(--t-gold-400,#f4c65e);outline-offset:3px}
+.jn{color:var(--t-ice-300);font-size:var(--t-fs-sm);font-variant-numeric:tabular-nums}
+.jc b{font-size:var(--t-fs-lg,1.3rem);line-height:1.5;color:#fff}
+.jc small{color:var(--t-mist-100,#dce4f5);line-height:1.9;font-size:var(--t-fs-sm);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.jm{margin-top:var(--t-s2);padding-top:var(--t-s3);border-top:1px solid var(--t-line);color:var(--t-gold-400);font-weight:700}
+.jm i{font-style:normal;font-weight:400;color:var(--t-ice-300);font-size:var(--t-fs-xs)}
+#mdr .chp{padding:var(--t-s6) var(--t-s4) var(--t-s6)}
+#mdr .chp .cd{position:static;opacity:1;transform:none;width:auto;max-width:none;margin:0;pointer-events:auto}
+
+/* ---------- فوتر پرده‌ای ---------- */
+#ft{position:fixed;inset:auto 0 0 0;height:var(--fh,70vh);z-index:0;background:linear-gradient(180deg,#071d45,#030a24);color:#fff;overflow:hidden}
+.ft-in{display:grid;grid-template-rows:1fr auto auto;min-height:100%;padding:clamp(40px,8vh,80px) clamp(16px,4vw,48px) var(--t-s4,16px);max-width:84rem;margin:0 auto}
+.ft-top{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:var(--t-s6,32px);align-items:start}
+.ft-top h3{margin:0 0 var(--t-s3);font-size:var(--t-fs-xl,2rem);line-height:1.4}
+.ft-top p{margin:0 0 var(--t-s4);color:var(--t-mist-100);max-width:30rem;line-height:2}
+.ft-top nav,.ft-c{display:grid;gap:var(--t-s2);align-content:start}
+.ft-top b{color:var(--t-gold-400);font-size:var(--t-fs-sm);margin-bottom:var(--t-s2)}
+.ft-top nav button{all:unset;cursor:pointer;color:var(--t-mist-100);min-height:36px;display:flex;align-items:center;transition:color .2s}
+.ft-top nav button:hover,.ft-c a:hover{color:var(--t-gold-400)}
+.ft-top nav button:focus-visible,.ft-c a:focus-visible{outline:2px solid var(--t-gold-400);outline-offset:2px}
+.ft-c a{color:var(--t-mist-100);text-decoration:none;min-height:36px;display:flex;align-items:center}
+.ft-c span{color:var(--t-ice-300);font-size:var(--t-fs-sm);line-height:1.9}
+.ft-mark{display:flex;justify-content:center;direction:ltr;overflow:hidden;font-family:Kalameh,'Segoe UI',Tahoma,sans-serif;font-weight:900;font-size:clamp(110px,26vw,380px);line-height:.88;letter-spacing:-.04em;margin:var(--t-s5) 0 0;color:rgba(255,255,255,.92)}
+.ft-mark i{font-style:normal;display:block;transform:translateY(108%);transition:transform 1s var(--t-ease,cubic-bezier(.22,.8,.24,1))}
+#ft.on .ft-mark i{transform:none}
+#ft.on .ft-mark i:nth-child(2){transition-delay:.14s}#ft.on .ft-mark i:nth-child(3){transition-delay:.28s}
+.ft-bot{display:flex;justify-content:space-between;gap:var(--t-s3);flex-wrap:wrap;padding-top:var(--t-s3);border-top:1px solid var(--t-line);color:var(--t-ice-300);font-size:var(--t-fs-xs)}
+.ft-bot button{all:unset;cursor:pointer;color:var(--t-mist-100);min-height:36px;display:flex;align-items:center}
+.ft-bot button:focus-visible{outline:2px solid var(--t-gold-400)}
+
+@media (max-width:860px){
+  .ft-top{grid-template-columns:1fr 1fr}.ft-top>div:first-child{grid-column:1/-1}
+  .stat{border-inline-start:0;border-bottom:1px solid var(--t-line)}
+}
+@media (max-width:520px){.ft-top{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.stat b,.ft-mark i,.jc{transition:none;animation:none}.stat b{filter:none;opacity:1;transform:none}.ft-mark i{transform:none}}
+
+#isb-mascot,#isb-bubble{transition:opacity .4s,transform .4s}
+#isb-mascot,#isb-bubble{opacity:0;visibility:hidden;pointer-events:none}
+body.mascot-off #isb-mascot,body.mascot-off #isb-bubble{opacity:0;visibility:hidden;transform:translateY(24px);pointer-events:none}

@@ -1,0 +1,76 @@
+{
+  "slides": [
+    {
+      "id": "mehregan",
+      "type": "image",
+      "active": true,
+      "image": "/projects/mehregan/cover.jpg",
+      "imageMobile": "",
+      "video": "",
+      "videoWebm": "",
+      "title": {
+        "fa": "مجتمع مسکونی مهرگان",
+        "en": "Mehregan Residential Complex"
+      },
+      "meta": {
+        "fa": "بلوار دندانپزشکان، مشهد، ایران · 1403",
+        "en": "Dandanpezeshkan Blvd, Mashhad, Iran · 1403"
+      },
+      "projectSlug": "mehregan"
+    },
+    {
+      "id": "bekhineh-sazan",
+      "type": "image",
+      "active": true,
+      "image": "/projects/bekhineh-sazan/cover.jpg",
+      "imageMobile": "",
+      "video": "",
+      "videoWebm": "",
+      "title": {
+        "fa": "کارخانه سنجش انرژی بهینه‌سازان توس",
+        "en": "Bekhineh Sazan Toos Energy Measurement Factory"
+      },
+      "meta": {
+        "fa": "شهرک صنعتی، مشهد، ایران · 1404",
+        "en": "Industrial Town, Mashhad, Iran · 1404"
+      },
+      "projectSlug": "bekhineh-sazan"
+    },
+    {
+      "id": "sustainable-school",
+      "type": "image",
+      "active": true,
+      "image": "/projects/sustainable-school/cover.jpg",
+      "imageMobile": "",
+      "video": "",
+      "videoWebm": "",
+      "title": {
+        "fa": "مدرسه با رویکرد انرژی و پایداری",
+        "en": "Energy- & Sustainability-Oriented School"
+      },
+      "meta": {
+        "fa": "فلات مرکزی، کرمان، ایران · 1403",
+        "en": "Central Arid Plateau, Kerman, Iran · 1403"
+      },
+      "projectSlug": "sustainable-school"
+    },
+    {
+      "id": "crisis-management",
+      "type": "image",
+      "active": true,
+      "image": "/projects/crisis-management/cover.jpg",
+      "imageMobile": "",
+      "video": "",
+      "videoWebm": "",
+      "title": {
+        "fa": "ساختمان مدیریت بحران استانداری مشهد",
+        "en": "Mashhad Crisis Management Building (Governorate)"
+      },
+      "meta": {
+        "fa": "بلوار آبادگران، مشهد، ایران · 1405",
+        "en": "Abadgaran Blvd, Mashhad, Iran · 1405"
+      },
+      "projectSlug": "crisis-management"
+    }
+  ]
+}

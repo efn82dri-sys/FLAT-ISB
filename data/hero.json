@@ -1,0 +1,22 @@
+{
+  "slides": [
+    {
+      "type": "video",
+      "title": {
+        "fa": "آشنایی با تیم",
+        "en": "ASHNAEI BA TEAM"
+      },
+      "meta": {
+        "fa": "مشهد",
+        "en": "MASHHAD"
+      },
+      "image": "/uploads/2026/11/10cb827a61d71c43.jpg",
+      "imageMobile": "",
+      "video": "/uploads/2026/11/1a570450c4d366ad.mp4",
+      "videoWebm": "",
+      "projectSlug": "",
+      "active": true,
+      "id": "ashnaei-ba-team"
+    }
+  ]
+}
