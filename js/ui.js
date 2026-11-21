@@ -172,7 +172,7 @@ function footHTML(){const T=t(),S=T.site,K=window.CONTACT||{accounts:[],phones:[
 function sizeFooter(){const f=document.getElementById('ft'),m=document.querySelector('main.site');if(!f||!m)return;const h=Math.max(f.firstElementChild?f.firstElementChild.offsetHeight:0,innerHeight*0.6);document.documentElement.style.setProperty('--fh',h+'px')}
 function renderSite(){const T=t();$('#dep').textContent=T.brand.department;$('#lb').textContent=L=='fa'?'EN':'فا';
  const nav=[['top',T.site.home]].concat(ORDER.map(o=>[o[0],sn(o[1])])).map(x=>`<button data-a="go" data-v="${x[0]}">${x[1]}</button>`).join('');$('#nv').innerHTML=nav;$('#drawer').innerHTML=nav;
- if(window.REEL)REEL.text();$('#stats').innerHTML=statsHTML();ORDER.forEach(o=>rs(o[0]));$('#sec-journey').innerHTML=journeyHTML();$('#ft').innerHTML=footHTML();sizeFooter();observe()}
+ if(window.GLASS)GLASS.text();if(window.REEL)REEL.text();$('#stats').innerHTML=statsHTML();ORDER.forEach(o=>rs(o[0]));$('#sec-journey').innerHTML=journeyHTML();$('#ft').innerHTML=footHTML();sizeFooter();observe()}
 let io=null;function observe(){if(!('IntersectionObserver' in window)){document.querySelectorAll('.stat b').forEach(b=>count(b.parentNode.parentNode));return}
  if(io)io.disconnect();io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);if(el.id=='stats'){el.classList.add('on');count(el)}if(el.id=='ft-sent')document.getElementById('ft').classList.add('on')}),{threshold:.25});
  const s=document.getElementById('stats');if(s){s.classList.remove('on');io.observe(s)}const f=document.getElementById('ft-sent');if(f)io.observe(f)}

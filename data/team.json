@@ -18,7 +18,7 @@
         "fa": "پژوهشگر و مدرس معماری پایدار، مقررات ملی و بهینه‌سازی انرژی ساختمان؛ عضو شورای سیاست‌گذاری توسعه ساختمان سبز و پایدار مرکز تحقیقات راه، مسکن و شهرسازی.",
         "en": "Senior researcher and national lecturer in sustainable architecture and building energy optimization; member of the Green & Sustainable Building Policy Council at the Road, Housing & Urban Development Research Center (BHRC)."
       },
-      "photo": "/uploads/2026/11/dd5daf24b9f94eaf.jpg",
+      "photo": "/team/dr-sara-atashi.jpg",
       "initials": "SA",
       "isConsultant": false,
       "level": "leader",
@@ -354,22 +354,22 @@
     {
       "id": "architecture-energy",
       "name": {
-        "fa": "معماری و شهرسازی",
-        "en": "Architecture & Urban Planning"
+        "fa": "معماری و انرژی",
+        "en": "Architecture & Energy"
       }
     },
     {
       "id": "business-development",
       "name": {
-        "fa": "انرژی و تاسیسات",
-        "en": "Energy & facilities"
+        "fa": "روابط عمومی و توسعه بازار",
+        "en": "PR & Business Development"
       }
     },
     {
       "id": "scientific-advisors",
       "name": {
-        "fa": "سازه و زلزله",
-        "en": "Structure & earthquake"
+        "fa": "مشاوران علمی و تخصصی",
+        "en": "Scientific & Specialist Consultants"
       }
     }
   ]

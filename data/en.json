@@ -333,5 +333,59 @@
     "rights": "© ISB — All rights reserved",
     "home": "Home",
     "top": "Back to top"
+  },
+  "glass": {
+    "eyebrow": "ISB SUSTAINABLE BUILDING GROUP",
+    "h1": [
+      "A team building",
+      "a sustainable future."
+    ],
+    "sub": [
+      "Consulting and simulation for sustainable buildings;",
+      "from climate and daylight to energy and Sarv-e-Sabz."
+    ],
+    "cta": "Meet the team",
+    "link": "Our principles →",
+    "footL": "© ISB",
+    "footR": "Sarv-e-Sabz · Energy simulation",
+    "nav": [
+      [
+        "services",
+        "Services"
+      ],
+      [
+        "projects",
+        "Projects"
+      ],
+      [
+        "team",
+        "Team"
+      ]
+    ],
+    "navCta": "Contact",
+    "defsTitle": "Five principles of our work",
+    "defs": [
+      [
+        "Climate",
+        "Before designing, we read the climate and the site."
+      ],
+      [
+        "Daylight",
+        "We measure the quality of natural light with simulation."
+      ],
+      [
+        "Energy",
+        "We model energy use and generation before construction."
+      ],
+      [
+        "Comfort",
+        "We design temperature, air and sound for the person inside."
+      ],
+      [
+        "Certification",
+        "We document the Sarv-e-Sabz path from the start."
+      ]
+    ],
+    "back": "← Back"
   }
 }

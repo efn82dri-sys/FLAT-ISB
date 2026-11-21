@@ -1,0 +1,26 @@
+/* هیروی شیشهٔ دودی: بوم WebGL، لایهٔ متن قابل‌انتخاب روی بلوک کج، نمای «اصول کار ما» و نسخهٔ ثابت. */
+.gsec{position:relative;height:100vh;height:100svh;min-height:600px;background:#050507;overflow:hidden;isolation:isolate;color:#fff}
+.gsec canvas{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:2;pointer-events:none}
+.g-ov{position:absolute;left:0;top:0;transform-origin:0 0;z-index:3;will-change:transform;opacity:0;transition:opacity .25s}
+.g-t{position:absolute;display:block;color:transparent;white-space:nowrap;text-decoration:none;cursor:text;margin:0;padding:0;overflow:visible;-webkit-user-select:text;user-select:text}
+.g-t[data-act]{cursor:pointer}
+.g-t::selection{background:rgba(66,120,255,.6);color:transparent}
+.g-t:focus-visible{outline:2px solid #7edcff;outline-offset:3px;border-radius:6px}
+.g-defs{position:absolute;inset:0;z-index:1;opacity:0;pointer-events:none;transition:opacity .4s;background:#050507}
+.g-defs.on{opacity:1;pointer-events:auto}
+.g-col{position:absolute;top:31%;width:33.9%;max-width:42rem}
+[dir=ltr] .g-col{left:32.4%}[dir=rtl] .g-col{right:32.4%}
+.g-col h2{margin:0 0 1.7vw;font-size:max(18px,1.36vw);font-weight:700;letter-spacing:-.02em;line-height:1.4;color:#fff}
+.g-col p{margin:0 0 1.05vw;font-size:max(13px,.73vw);line-height:1.9;color:rgba(255,255,255,.6)}
+.g-col b{color:#fff;font-weight:600}
+.g-back{position:absolute;z-index:4;transform:translate(-50%,-50%) rotate(-3deg);color:#fff;text-decoration:none;font-weight:500;opacity:0;pointer-events:none;transition:color .2s,opacity .25s;white-space:nowrap}
+.g-back[style*="opacity: 1"]{pointer-events:auto}
+.g-back.hv{color:#b9abff}
+.g-back:focus-visible{outline:2px solid #b9abff;outline-offset:6px;border-radius:4px}
+.gsec.static{height:auto;min-height:100svh;display:grid;place-items:center;background:radial-gradient(90% 70% at 70% 20%,#141428,#050507)}
+.g-static{max-width:46rem;padding:96px 24px 64px;display:grid;gap:20px;justify-items:start}
+.g-static small{color:rgba(255,255,255,.45);letter-spacing:.14em}
+.g-static h1{margin:0;text-shadow:none;font-size:clamp(2.4rem,7vw,4.6rem);line-height:1.2;font-weight:800;background:linear-gradient(180deg,#e2e2e6,#b9b9c0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.g-static p{margin:0;color:rgba(255,255,255,.6);line-height:2;font-size:1.05rem}
+.reel-lead{display:none}
+@media (max-width:760px){.g-col{top:26%;width:84%;max-width:none}[dir=ltr] .g-col{left:8%}[dir=rtl] .g-col{right:8%}.g-col h2{font-size:1.25rem}.g-col p{font-size:.95rem}.g-back{font-size:15px!important}}

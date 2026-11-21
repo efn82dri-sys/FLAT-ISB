@@ -340,9 +340,9 @@ if schemas is not None:
                 err(f'admin/schemas.json: نوع فیلد نامعتبر «{f.get("type")}» در {col["id"]}')
 
 # ---------- فایل‌های اصلی ----------
-for rel in ['index.html', 'css/fonts.css', 'css/tokens.css', 'css/base.css', 'css/layout.css', 'css/team.css', 'css/services.css', 'css/projects.css', 'css/about.css', 'css/lab.css', 'css/contact.css', 'css/hero.css', 'css/site.css', 'css/mascot.css',
+for rel in ['index.html', 'css/fonts.css', 'css/tokens.css', 'css/base.css', 'css/layout.css', 'css/team.css', 'css/services.css', 'css/projects.css', 'css/about.css', 'css/lab.css', 'css/contact.css', 'css/glass.css', 'css/hero.css', 'css/site.css', 'css/mascot.css',
             'admin/index.html', 'admin/admin.js', 'admin/admin.css', 'admin/api.php', 'admin/setup.php', 'admin/schemas.json', 'tools/dev_server.py',
-            'js/main.js', 'js/i18n.js', 'js/lab.js', 'js/ui.js', 'js/mascot.js', 'js/hero.js',
+            'js/main.js', 'js/i18n.js', 'js/lab.js', 'js/ui.js', 'js/mascot.js', 'js/glass.js', 'js/hero.js',
             'assets/fonts/kalameh-300.woff', 'assets/fonts/kalameh-400.woff', 'assets/fonts/kalameh-700.woff', 'assets/fonts/kalameh-900.woff',
             'assets/images/mascot-body.webp', 'assets/images/mascot-head.webp']:
     if not os.path.isfile(os.path.join(ROOT, rel)):

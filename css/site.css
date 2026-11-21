@@ -2,7 +2,7 @@
 .skip{position:absolute;inset-inline-start:8px;top:-60px;z-index:99;background:var(--t-gold-400,#f4c65e);color:#111;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none}
 .skip:focus{top:8px}
 body.mdo,body.mo{overflow:hidden}
-.site{position:relative;z-index:1;background:#071d45;margin-bottom:var(--fh,70vh)}
+.site{position:relative;z-index:1;background:#071d45;margin-bottom:var(--fh,70vh);pointer-events:auto}
 .sec{padding:clamp(72px,11vh,130px) clamp(16px,4vw,48px);scroll-margin-top:56px;background:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px) 0 0/40px 40px,#071d45;border-top:1px solid rgba(169,204,255,.1)}
 .sec:nth-of-type(even){background-color:#08224f}
 #sec-about{border-top:0}
@@ -61,3 +61,8 @@ body.mdo,body.mo{overflow:hidden}
 #isb-mascot,#isb-bubble{transition:opacity .4s,transform .4s}
 #isb-mascot,#isb-bubble{opacity:0;visibility:hidden;pointer-events:none}
 body.mascot-off #isb-mascot,body.mascot-off #isb-bubble{opacity:0;visibility:hidden;transform:translateY(24px);pointer-events:none}
+
+/* بالای صفحه (روی هیروی شیشه‌ای): هدر شفاف و بدون لینک‌های تکراری؛ بعد از اسکرول عادی می‌شود */
+#hd:not(.sc){background:transparent;border-color:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+#hd:not(.sc) #nv{opacity:0;pointer-events:none}
+#hd #nv{transition:opacity .3s}

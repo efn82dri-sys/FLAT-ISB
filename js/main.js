@@ -49,7 +49,7 @@
       G[l]={head:g.headings,tips:g.tips,tipsS:g.shortTips,go:g.startButton,goT:g.ticketButton,no:g.laterButton,x:g.closeButton,tap:g.tapWords};});
     window.ISB_GUIDE_TEXT=G;
 
-    loadScripts(['js/i18n.js','js/lab.js','js/ui.js','js/mascot.js','js/hero.js']);
+    loadScripts(['js/i18n.js','js/lab.js','js/ui.js','js/mascot.js','js/glass.js','js/hero.js']);
   }).catch(function(e){
     console.error('ISB: خطا در لود داده‌ها',e);
     document.body.insertAdjacentHTML('afterbegin',
